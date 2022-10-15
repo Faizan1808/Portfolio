@@ -522,6 +522,11 @@ header .navbar ul li a:hover{
         padding:1rem 4rem;
     }
 
+    .dynamic span{
+        position: absolute;
+        top: 31rem;
+    }
+
 }
 
 @media (max-width:991px){
@@ -542,6 +547,11 @@ header .navbar ul li a:hover{
        padding:0;
    }
 
+   .dynamic span{
+    position: absolute;
+    top: 31rem;
+}
+
 }
 
 @media (max-width:768px){
@@ -549,7 +559,11 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
- 
+    
+    .dynamic span{
+        position: absolute;
+        top: 35rem;
+    }
  }
 
 @media (max-width:400px){
@@ -576,6 +590,12 @@ header .navbar ul li a:hover{
 
     .contact .row form{
         margin:3rem 0;
+    }
+
+    .dynamic span{
+        position: absolute;
+        top: 35rem;
+        left: 22rem;
     }
 
 }
