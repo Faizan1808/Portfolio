@@ -120,15 +120,15 @@ header .user .post{
     position: relative;
     color: #fff;
     font-size: 2rem;
-    left: -6rem;
+    /* left: -6rem; */
 }
 
-.post .dynamic{
+/* .post .dynamic{
     display: inline;
-    /* margin-left: 5px; */
+    margin-left: 5px;
 }
 
-.dynamic span{
+ .dynamic span{
     font-size: 1.5rem;
     width: max-content;
     position: absolute;
@@ -161,7 +161,7 @@ header .user .post{
         transform: translateY(90px) rotate(10deg);
         
     }
-}
+} */
 
 
 /* .post{
@@ -524,7 +524,7 @@ header .navbar ul li a:hover{
 
     .dynamic span{
         position: absolute;
-        top: 31rem;
+        top: 68rem;
     }
 
 }
@@ -549,7 +549,7 @@ header .navbar ul li a:hover{
 
    .dynamic span{
     position: absolute;
-    top: 31rem;
+    top: 68rem;
 }
 
 }
@@ -562,7 +562,7 @@ header .navbar ul li a:hover{
     
     .dynamic span{
         position: absolute;
-        top: 35rem;
+        top: 49rem;
     }
  }
 
@@ -594,8 +594,8 @@ header .navbar ul li a:hover{
 
     .dynamic span{
         position: absolute;
-        top: 35rem;
-        left: 22rem;
+        top: 46rem;
+        left: 22rem
     }
 
 }
